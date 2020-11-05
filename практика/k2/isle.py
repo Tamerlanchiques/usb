@@ -8,7 +8,7 @@ for i in range(wordLength):
 isleHealthMax = 4
 isleHealth = isleHealthMax
 progress = 0
-os.system('clear')
+os.system('cls' if os.name == 'nt' else 'clear')
 print('Загадано слово '+''.join(hiddenWord) +
       '. Начните отгадывать его по одной букве')
 while not (progress == wordLength):

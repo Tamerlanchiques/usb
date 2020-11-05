@@ -30,7 +30,9 @@ while not (progress == wordLength):
     else:
         isleHealth -= 1
         if(isleHealth < 1):
-            print('gg')
+            print('')
+            print('Вы не угадали и ваш остров ушёл под воду =( F')
+            print('Было загадано слово ' + '\"'+word+'\"')
             break
         else:
             print('Такой буквы нет =(. Здоровье острова: ' +

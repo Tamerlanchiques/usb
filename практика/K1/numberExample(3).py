@@ -1,6 +1,6 @@
 people = ['Вася', 'Петя', 'Боря', 'Маша', 'Диана', 'Валерия', 'Даниил']
 i = 0
-search = input('Введите имя: ')
+search = input('Введите имя и нажмите Enter: ')
 current = ''
 while not current == search or i == len(people):
     current = people[i]
